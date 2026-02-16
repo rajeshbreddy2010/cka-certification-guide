@@ -1,6 +1,6 @@
 # Certified Kubernetes Administrator (CKA) Exam Preparation Guide - V1.34 (2025)
 
-This is detailed study guide with tips and practical examples to ace the Certified Kubernetes Administrator exam.
+This is a detailed study guide with tips and practical examples to ace the Certified Kubernetes Administrator exam.
 
 ## Hit the Star! :star:
 
@@ -19,7 +19,7 @@ To save on CKA exam registration, use the following coupon code.
 > [!IMPORTANT]
 > **Coupon:** Use code **LUNAR26CT** at [kube.promo/cka](https://kube.promo/cka)
 
-Use code **LUNAR26BUNCT** to save 50% on folowing bundles.
+Use code **LUNAR26BUNCT** to save 50% on following bundles.
 
 - CKA + CKAD ($370+ Savings): [kube.promo/cka-ckad](https://kube.promo/cka-ckad)
 - CKA + CKS Bundle ($370+ Savings) [kube.promo/bundle](https://kube.promo/bundle)
@@ -249,7 +249,7 @@ curl -O https://raw.githubusercontent.com/projectcalico/calico/v3.31.3/manifests
 # Get the cluster Pod CIDR information
 kubectl -n kube-system get pod -l component=kube-controller-manager -o yaml | grep -i cluster-cidr
 
-# Modify the Custom Resouce manifest with the cluster CIDR
+# Modify the Custom Resource manifest with the cluster CIDR
 vi custom-resource.yaml
 
 apiVersion: operator.tigera.io/v1
@@ -274,7 +274,7 @@ k get po -a
 k get no
 ```
 
-> Container Storage Interface (CSI) for Kubernetes GA : The CSIs is a standardized mechanism that allows storage providers to provide persistent storage support for Kubernetes.
+> Container Storage Interface (CSI) for Kubernetes GA : The CSI is a standardized mechanism that allows storage providers to provide persistent storage support for Kubernetes.
 
 ```bash
 # List CSI drivers
@@ -440,7 +440,7 @@ k autoscale deploy <deployment-name> --min=2 --max=5
 ```
 
 ### Understand the primitives used to create robust, self-healing, application deployments.
-> Configure Pod Priorities using Priority Class to ensure mission critial applications are available and handled during resource crunch.
+> Configure Pod Priorities using Priority Class to ensure mission critical applications are available and handled during resource crunch.
 
 **Detailed Lesson:** [Pod Priority & Priority Class](https://techiescamp.com/courses/certified-kubernetes-administrator-course/lectures/60175740)
 
