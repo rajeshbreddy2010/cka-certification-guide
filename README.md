@@ -19,7 +19,7 @@ To save on CKA exam registration, use the following coupon code.
 > [!IMPORTANT]
 > **Coupon:** Use code **DCUBE30** at [kube.promo/cka](https://kube.promo/cka)
 
-Use code **R2KUBECT** to save 50% on following bundles.
+Use code **DCUBE30** to save 38% on following bundles.
 
 - CKA + CKAD ($370+ Savings): [kube.promo/cka-ckad](https://kube.promo/cka-ckad)
 - CKA + CKS Bundle ($370+ Savings) [kube.promo/bundle](https://kube.promo/bundle)
